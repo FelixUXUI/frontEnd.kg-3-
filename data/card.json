@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Атабекова Гулиза",
+    "age": 19,
+    "Profession": "UX UI Designer",
+    "photoUrl": "https://images.nplod.ru/gen_images_2/RgKadGk8EmzpBoDhQeu0cW29KQpvTSEe_sm.jpg"
+  },
+  {
+    "name": "Каныбаева Айгерим",
+    "age": 20,
+    "Profession": "UX UI Designer",
+    "photoUrl": "https://images.nplod.ru/gen_images_2/RgKadGk8EmzpBoDhQeu0cW29KQpvTSEe_sm.jpg"
+  },
+  {
+    "name": "Алсу",
+    "age": 19,
+    "Profession": "UX UI Designer",
+    "photoUrl": "https://images.nplod.ru/gen_images_2/RgKadGk8EmzpBoDhQeu0cW29KQpvTSEe_sm.jpg"
+  },
+  {
+    "photoUrl": "https://images.nplod.ru/gen_images_2/aDkkWJF6cDB45jnnk1IiVbfFd484ZHeq_sm.jpg",
+    "name": "Равильев Феликс",
+    "age": 20,
+    "Profession": "UX UI Designer"
+  },
+  {
+    "photoUrl": "https://images.nplod.ru/gen_images_2/aDkkWJF6cDB45jnnk1IiVbfFd484ZHeq_sm.jpg",
+    "name": "Нурланбек уулу Кутманбек",
+    "age": 19,
+    "Profession": "UX UI Designer"
+  },
+  {
+    "name": "Ракымова Аймончок",
+    "age": 15,
+    "Profession": "UX UI Designer, Frontend",
+    "photoUrl": "https://images.nplod.ru/gen_images_2/RgKadGk8EmzpBoDhQeu0cW29KQpvTSEe_sm.jpg"
+  }
+]

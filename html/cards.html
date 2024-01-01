@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card</title>
+    <link rel="stylesheet" href="../css/card.css">
+</head>
+<body>
+    <div class="wrapper2">
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <a href="../home.html" class="logo">FrontEnd.kg</a>
+                    <div class="header__content__right">
+                        <ul>
+                            <li class="header__content__right__links">
+                                <a href="../html/lesson.html" class="header__content__right__links__link">
+                                    Lesson
+                                    <span class="header__content__right__links__link__line"></span>
+                                </a>
+                                <a href="../html/cards.html" class="header__content__right__links__link">
+                                    Cards
+                                    <span class="header__content__right__links__link__line"></span>
+                                </a>
+                                <a href="../html/home-work.html" class="header__content__right__links__link">
+                                    Home-Work
+                                    <span class="header__content__right__links__link__line"></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="header__content__right__button" id="openCounterModalBtn">Open Modal</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="cards">
+            <div class="container">
+                <div class="cards__content"></div>
+            </div>
+        </section>
+    </div>
+    <section class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div class="modal__close">&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input
+                            required
+                            placeholder="Ваше имя"
+                            name="name"
+                            type="text"
+                            class="modal__input"
+                    >
+                    <input
+                            required
+                            placeholder="Ваш номер телефона"
+                            name="phone"
+                            type="text"
+                            class="modal__input"
+                    >
+                    <button class="btn btn__dark btn__min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="../JavaScript/card.js"></script>
+    <script src="../JavaScript/modal.js"></script>
+    <script src="../JavaScript/index.js"></script>
+</body>
+</html>

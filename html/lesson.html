@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson</title>
+    <link rel="stylesheet" href="../fonts/openSans/stylesheet.css">
+    <link rel="stylesheet" href="../css/lesson.css">
+</head>
+<body>
+    <div class="wrapper2">
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <a href="../home.html" class="logo">FrontEnd.kg</a>
+                    <div class="header__content__right">
+                        <ul>
+                            <li class="header__content__right__links">
+                                <a href="../html/lesson.html" class="header__content__right__links__link">
+                                    Lesson
+                                    <span class="header__content__right__links__link__line"></span>
+                                </a>
+                                <a href="../html/cards.html" class="header__content__right__links__link">
+                                    Cards
+                                    <span class="header__content__right__links__link__line"></span>
+                                </a>
+                                <a href="../html/home-work.html" class="header__content__right__links__link">
+                                    Home-Work
+                                    <span class="header__content__right__links__link__line"></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <button class="header__content__right__button">Open Modal</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="phone-checker">
+            <div class="container">
+                <div class="phone-checker__content">
+                    <h2>Phone Checker</h2>
+                    <div class="phone-checker__content__phone">
+                        <label for="phone_input"></label>
+                        <input type="text" class="input" id="phone_input" placeholder="+996 XXX XX-XX-XX">
+                        <button class="button" id="phone_button">Check number</button>
+                        <span class="checker" id="phone_result"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="line-center"></div>
+
+        <section class="tab-slider">
+            <div class="container">
+                <div class="tab-slider__content">
+                    <h2>Tab Slider</h2>
+                    <div class="tab-slider__content__contents">
+                        <div class="tab-slider__content__contents__block">
+                            <h4>classList</h4>
+                            <p>classList в JavaScript - это свойство, которое позволяет нам работать с классами элемента
+                                HTML. С помощью classList мы можем добавлять, удалять или проверять наличие классов у
+                                элемента. Допустим, у нас есть элемент на веб-странице, и мы хотим изменить его классы с
+                                помощью JavaScript. Вместо того, чтобы обращаться напрямую к атрибуту class, мы можем
+                                использовать свойство classList этого элемента. </p>
+                        </div>
+                        <div class="tab-slider__content__contents__block">
+                            <h4>add()</h4>
+                            <p>Метод add позволяет добавить новый класс к списку классов элемента. Например,
+                                element.classList.add('new-class') добавит класс с именем "new-class" к элементу.</p>
+                        </div>
+                        <div class="tab-slider__content__contents__block">
+                            <h4>remove()</h4>
+                            <p>Метод remove позволяет удалить класс из списка классов элемента. Например,
+                                element.classList.remove('old-class') удалит класс с именем "old-class" из элемента.</p>
+                        </div>
+                        <div class="tab-slider__content__contents__block">
+                            <h4>contains()</h4>
+                            <p>Метод contains позволяет проверить, содержит ли элемент определенный класс. Он возвращает
+                                true, если класс присутствует, и false, если его нет. Например,
+                                element.classList.contains('highlight') вернет true, если у элемента есть класс
+                                "highlight".</p>
+                        </div>
+                        <div class="tab-slider__content__contents__items">
+                            <div class="tab-slider__content__contents__items__item tab-slider__content__items__item__active">Делегирование событий</div>
+                            <div class="tab-slider__content__contents__items__item">Class List</div>
+                            <div class="tab-slider__content__contents__items__item">add()</div>
+                            <div class="tab-slider__content__contents__items__item">remove()</div>
+                            <div class="tab-slider__content__contents__items__item">contains()</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="line-center"></div>
+
+        <section class="converter">
+            <div class="container">
+                <div class="converter__content">
+                    <h2>Converter</h2>
+                    <div class="converter__content__inputs">
+                        <div class="input-som">
+                            <label for="som"></label>
+                            <input class="input" id="som" placeholder="SOM">
+                        </div>
+                        <div class="input-som">
+                            <label for="usd"></label>
+                            <input class="input" id="usd" placeholder="USD">
+                        </div>
+                        <div class="input-som">
+                            <label for="eur"></label>
+                            <input class="input" id="eur" placeholder="EUR">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="line-center"></div>
+
+        <section class="card-switcher">
+            <div class="container">
+                <div class="card-switcher__content">
+                    <h2>Card Switcher</h2>
+                    <div class="card-switcher__content__switcher">
+                        <button class="card-switcher__content__switcher__button" id="btn-prev"><img src="../icon/ic_arrow_back.svg" alt=""></button>
+                        <div class="card-switcher__content__switcher__card"></div>
+                        <button class="card-switcher__content__switcher__button" id="btn-next"><img src="../icon/ic_arrow_forward.svg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="line-center"></div>
+
+        <section class="weather-forecast">
+            <div class="container">
+                <div class="weather-forecast__content">
+                    <h2>Weather forecast</h2>
+                    <div class="weather-forecast__content__input">
+                        <label for="weather-forecast"></label>
+                        <input class="input" id="weather-forecast" placeholder="Enter city">
+                        <div class="weather-forecast__content__input__result">
+                            <span class="result-city"></span>
+                            <span class="result-forecast"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <a class="footer__content__my-portfolio" href="">My Portfolio</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <section class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div class="modal__close">&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input
+                            required
+                            placeholder="Ваше имя"
+                            name="name"
+                            type="text"
+                            class="modal__input"
+                    >
+                    <input
+                            required
+                            placeholder="Ваш номер телефона"
+                            name="phone"
+                            type="text"
+                            class="modal__input"
+                    >
+                    <button class="btn btn__dark btn__min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="../JavaScript/lesson.js"></script>
+    <script src="../JavaScript/index.js"></script>
+    <script src="../JavaScript/modal.js"></script>
+</body>
+</html>
